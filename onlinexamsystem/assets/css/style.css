@@ -1,0 +1,130 @@
+body{
+    background-image: url('F3.jpg');
+    background-size: cover;
+    font-family: "open sans";
+    color: rgba(45, 223, 232, 0.938);
+}
+section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover ;
+    background-position: center center;
+   
+}
+@media only screen and (min-width:600px){
+    .holecontain{
+        display: flex;
+        /* position: initial; */
+        position: absolute;
+        margin-left: 400px;
+    }   
+}
+
+
+.form-container{
+    position: initial;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.74));
+    width: 400px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+
+@media only screen and (min-width:600px){
+    .form-container{
+        position: initial;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.74));
+        width: 280px;
+        padding: 50px 30px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 60px #000;
+     }    
+}
+}
+.form-container2{
+    position: initial;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.74));
+    width: 400px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+    
+   
+    
+}
+#name{
+    width: 240px;
+    margin-left:40px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+.control input{
+    width: 90%;
+    display: block;
+    padding: 10px;
+    color: rgb(32, 26, 26);
+    border:none;
+    outline: none;
+    margin: 1em 0;
+    border-radius: 10px;
+    margin-right: 30px;
+
+
+}
+.control2 input{
+    width: 90%;
+    display: block;
+    padding: 10px;
+    color: rgb(32, 26, 26);
+    border:none;
+    outline: none;
+    margin: 1em 0;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.control3 input{
+    width: 30%;
+    display: block;
+    padding: 10px;
+    color: rgb(32, 26, 26);
+    border:none;
+    outline: none;
+    margin: 1em 0;
+    margin-left: 187px;
+    
+}
+.control3 input[type="submit"]{
+    background: rgba(11, 235, 247, 0.938);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .7;
+    transition: opacity .3s ease;
+
+}
+.control3 input[type="submit"]:hover{
+    opacity: 1;
+}
+
+img{
+    margin-center: auto;
+}
